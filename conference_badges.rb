@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
   attendees.each do |attendee|
     attendees << "Hello, my name is #{attendee}."
   end
-  attendees
+  attendees binding.pry
 end
 
 def assign_rooms(attendees)
